@@ -10,6 +10,9 @@ public class MasterHelloOne {
 		System.out.println("Changes from Feature branch....");
 		return "Hello Git Master";
 	}
+	public void addFunctionInDev() {
+		System.out.println("Dev Branch updated..............");
+	}
 	public static void main(String[] args) {
 		System.out.println(getMessage());
 	}
